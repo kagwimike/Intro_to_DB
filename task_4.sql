@@ -1,7 +1,7 @@
 -- Select the database
 USE alx_book_store;
 
--- Show full description of the 'books' table
+-- Show full description of the 'Books' table
 SELECT 
     COLUMN_NAME AS 'Field',
     COLUMN_TYPE AS 'Type',
@@ -11,4 +11,4 @@ SELECT
     EXTRA AS 'Extra'
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_SCHEMA = 'alx_book_store'
-  AND TABLE_NAME = 'books';
+  AND TABLE_NAME = 'Books';
